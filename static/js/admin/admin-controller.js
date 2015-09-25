@@ -1,5 +1,6 @@
 angular.module("catApp")
   .controller("AdminController", ["$scope", "$http", "$interval", "Notification", function($scope, $http, $interval, Notification) {
+    Notification.success({message: "You connected admin!"});
   	$scope.checkNotifications = function() {
       $interval(function() {
       	 $scope.successNotify = false;

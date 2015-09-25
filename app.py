@@ -9,7 +9,7 @@ import datetime
 
 import os
 
-MONGODB_URI = "mongodb://sauravmaximus:kerberos@ds051843.mongolab.com:51843/cats"
+MONGODB_URI = "YOUR_MONGOLAB_URI"
 client = MongoClient(MONGODB_URI) # connect to default localhost at 27017 port
 db = client.get_default_database()
 

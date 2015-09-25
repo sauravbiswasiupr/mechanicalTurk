@@ -1,0 +1,21 @@
+<div class="container-fluid">
+	<div class="jumbotron">
+		<h1>Curious Cat Finder</h1>
+		<h2>Welcome {{userName}}</h2>
+		<p class="lead">
+			Your very own cat finder app. You will be presented with random cat images.
+			You have to label them as cute, ugly, sweet or whatever you feel like. We use
+			your response to find even cuter cats for you
+		</p>
+    <div class="row">
+        <div class="col-md-8">
+            <div class='catContainer'>
+	            <div class='catImageBox'>
+	            	<img src="{{newImage}}" class="catImage">
+	            	<input class="form-control"  ng-model="catshit">
+	            	<button class='center-block btn btn-lg btn-success' ng-click='refreshImage()'>Submit</button>
+	            </div>
+            </div>
+        </div>
+    </div>
+</div>

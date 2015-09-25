@@ -1,0 +1,44 @@
+<div class="container-fluid">
+	<div class="adminDashboard">
+		<h1>Admin Dashboard</h1>
+		<p class="lead">
+			Welcome to your dashboard. Here you can monitor what your mechanical turks have been upto.
+		</p>
+  </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="container">
+              <p class="lead">
+              Monitor your mechanical turks as to how they process their cats. The notifications
+              will appear on the top right, as soon as someone posts something
+              </p>
+              <div>
+                Cute cats
+                <div class="progress">
+                   <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{cute}}" aria-valuemin="0"  style="width: {{cute+1}}%">
+                     {{cute}}
+                   </div>
+                </div>
+                Happy cats
+                <div class="progress">
+                   <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{happy}}" aria-valuemin="0"  style="width: {{happy + 1}}%">
+                    {{happy}}
+                   </div>
+                </div>
+                Sad cats
+                <div class="progress">
+                   <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{sad}}" aria-valuemin="0"  style="width: {{sad + 1}}%">
+                    {{sad}}
+                   </div>
+                </div>
+                Ugly cats
+                <div class="progress">
+                 <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{ugly}}" aria-valuemin="0"  style="width: {{ugly + 1}}%">
+                   {{ugly}}
+                 </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
